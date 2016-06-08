@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe PaymentGatewayController, type: :controller do
   describe "#callback" do
-    let(:order) { build_stubbed(:order, id: 1) }
+    let(:order) { build_stubbed(:order, id:1) }
     let(:params) do
       {
         order_id: 1,
